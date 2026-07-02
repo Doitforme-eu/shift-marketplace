@@ -1,0 +1,13 @@
+{
+  "name": "doitforme-shift-marketplace",
+  "owner": {
+    "name": "Doitforme"
+  },
+  "plugins": [
+    {
+      "name": "doitforme-shift",
+      "source": "./plugins/doitforme-shift-claude",
+      "description": "Shift plugin for Claude with MCP setup and bundled marketing skills"
+    }
+  ]
+}

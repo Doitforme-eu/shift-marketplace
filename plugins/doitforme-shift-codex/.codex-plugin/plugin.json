@@ -1,0 +1,28 @@
+{
+  "name": "doitforme-shift",
+  "version": "1.0.0",
+  "description": "Shift plugin for Codex with MCP setup guidance and bundled marketing skills.",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Doitforme Shift",
+    "shortDescription": "Marketing operations and analysis for Codex.",
+    "longDescription": "Installs Shift skills and a remote MCP server definition. Users still provide their personal SHIFT_MCP_API_KEY during setup.",
+    "developerName": "Doitforme",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "MCP"
+    ],
+    "websiteURL": "https://shift.doitforme.eu/",
+    "privacyPolicyURL": "https://shift.doitforme.eu/privacy-policy",
+    "termsOfServiceURL": "https://shift.doitforme.eu/terms",
+    "defaultPrompt": [
+      "Audit my active Meta and Google campaigns.",
+      "Find wasted spend across my connected providers.",
+      "Write fresh performance ad copy from current account context."
+    ],
+    "brandColor": "#D08E14"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "doitforme-shift",
+  "version": "1.0.0",
+  "description": "Shift plugin for Claude with bundled skills, guidance, and static API-key MCP auth."
+}

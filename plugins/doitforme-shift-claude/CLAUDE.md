@@ -31,6 +31,7 @@ On the first user request of a session:
 ## Capability boundaries
 
 Prefer normal MCP tools whenever they cover the task.
+Never use the browser, website UIs, or generic web navigation as a fallback for executing user requests. If Shift MCP tools are unavailable or insufficient, stop, explain the exact MCP gap, and ask the user for the next step instead of drifting outside MCP.
 If a required capability is unavailable through MCP, first confirm the gap. Only then use:
 
 - `meta_execute_graph_request` for Meta fallback
@@ -85,6 +86,7 @@ Media upload handling:
 - Treat auth and connectivity errors as recoverable and provide the exact reconnect step.
 - Do not expose secrets or token-like values in outputs.
 - Do not treat fallback gateway tools as the default path when a normal MCP tool already covers the task.
+- Never switch to browser-based execution or external website UIs to complete MCP tasks.
 
 ## Response style
 

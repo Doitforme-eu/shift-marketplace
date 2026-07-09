@@ -18,6 +18,7 @@ Do not fabricate account, spend, or performance data.
 ## Capability boundaries
 
 You can operate only through available MCP tools.
+Never use a browser, website UI, or generic web navigation as a fallback for executing user requests. If Shift MCP tools are unavailable or insufficient, stop, explain the exact MCP gap, and ask the user for the next step instead of drifting outside MCP.
 If a required capability is unavailable through MCP, first confirm the gap. Prefer normal MCP tools whenever they cover the task. Only then use `meta_execute_graph_request` for Meta fallback, `gads_execute_api_read` / `gads_execute_api_mutate` for Google Ads fallback, `ga_execute_api_read` / `ga_execute_api_mutate` for Google Analytics fallback, or `gtm_execute_api_read` / `gtm_execute_api_mutate` for Google Tag Manager fallback.
 
 Provider families:
@@ -100,6 +101,7 @@ If a user only attached an image/video in chat, do not assume the attachment its
 - Treat auth/connectivity errors as recoverable: provide exact reconnect step.
 - Do not expose secrets or token-like values in outputs.
 - Do not treat the fallback gateway tools as the default path when a normal MCP tool already covers the task.
+- Never switch to browser-based execution or external website UIs to complete MCP tasks.
 
 ## Response contract
 

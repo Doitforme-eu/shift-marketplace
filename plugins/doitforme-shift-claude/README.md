@@ -32,3 +32,7 @@ See the [marketplace README](../../README.md) for the full skill inventory, plat
 [Privacy policy](https://launchpad.doitforme.eu/en/data-protection-policy/) · [Terms of service](https://launchpad.doitforme.eu/en/terms-and-conditions/) · [Package support](https://github.com/Doitforme-eu/shift-marketplace/issues)
 
 These are the published policy links used by the Shift website. The bundled icon is the website's [512 px app icon](https://shift.doitforme.eu/logo512.png).
+
+## License
+
+Plugin source is licensed under the [MIT License](./LICENSE).

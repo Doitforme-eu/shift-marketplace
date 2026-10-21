@@ -76,3 +76,7 @@ This repository is a public, independently hosted marketplace. Anyone who can re
 Use the [Shift setup guide](https://shift.doitforme.eu/el/setup-guide/) for account and connection help. Report package or installation problems in [GitHub Issues](https://github.com/Doitforme-eu/shift-marketplace/issues). Include the client version and error message, with credentials and private account data removed.
 
 [Privacy policy](https://launchpad.doitforme.eu/en/data-protection-policy/) · [Terms of service](https://launchpad.doitforme.eu/en/terms-and-conditions/)
+
+## License
+
+Plugin source is licensed under the [MIT License](./LICENSE).

@@ -46,5 +46,6 @@
     "gtm",
     "campaign-analysis",
     "mcp"
-  ]
+  ],
+  "license": "MIT"
 }

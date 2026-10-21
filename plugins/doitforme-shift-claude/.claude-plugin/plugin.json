@@ -22,5 +22,6 @@
     "mcp"
   ],
   "icon": "./assets/icon.png",
-  "privacyPolicyUrl": "https://launchpad.doitforme.eu/en/data-protection-policy/"
+  "privacyPolicyUrl": "https://launchpad.doitforme.eu/en/data-protection-policy/",
+  "license": "MIT"
 }

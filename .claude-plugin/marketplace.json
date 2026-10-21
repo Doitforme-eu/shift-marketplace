@@ -7,7 +7,22 @@
     {
       "name": "doitforme-shift",
       "source": "./plugins/doitforme-shift-claude",
-      "description": "Shift plugin for Claude with MCP setup and bundled marketing skills"
+      "description": "Meta Ads and Google Ads campaign operations, Google Analytics 4 (GA4) analysis, and Google Tag Manager (GTM) tracking workflows through Shift MCP.",
+      "category": "marketing",
+      "tags": [
+        "marketing",
+        "meta-ads",
+        "facebook-ads",
+        "instagram-ads",
+        "google-ads",
+        "google-analytics",
+        "ga4",
+        "google-tag-manager",
+        "gtm",
+        "campaign-analysis",
+        "mcp"
+      ]
     }
-  ]
+  ],
+  "description": "Doitforme Shift for Meta Ads, Google Ads, Google Analytics 4 and Google Tag Manager."
 }

@@ -1,3 +1,8 @@
+---
+name: gtm-safe-mutations
+description: Apply Google Tag Manager (GTM) changes safely across containers and workspaces. Use for tags, triggers, conversion tracking, workspace sync errors, validation, and publishing checks.
+---
+
 # gtm-safe-mutations
 
 Purpose: Apply Google Tag Manager changes safely across workspaces without ID mismatch, duplicate-name conflicts, or broken trigger bindings.

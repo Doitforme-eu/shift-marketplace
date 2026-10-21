@@ -1,13 +1,13 @@
 {
   "name": "doitforme-shift",
-  "version": "1.0.0",
-  "description": "Shift plugin for Codex with MCP setup guidance and bundled marketing skills.",
+  "version": "1.1.0",
+  "description": "Meta Ads and Google Ads campaign operations, Google Analytics 4 (GA4) analysis, and Google Tag Manager (GTM) tracking workflows through Shift MCP.",
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Doitforme Shift",
-    "shortDescription": "Marketing operations and analysis for Codex.",
-    "longDescription": "Installs Shift skills and a remote MCP server definition. Users still provide their personal SHIFT_MCP_API_KEY during setup.",
+    "shortDescription": "Ads, GA4 & GTM operations",
+    "longDescription": "Run Meta Ads and Google Ads campaign reviews, wasted-spend analysis, campaign preparation and ad copy workflows. Analyze Google Analytics 4 acquisition, engagement, ecommerce and key events. Inspect Google Tag Manager containers and workspaces and prepare verified tracking changes. Built for agencies, growth teams and advertisers using their own connected Shift accounts. Includes ten skills and the Shift remote MCP connection. Available actions depend on connected providers, account permissions and exposed tools. Each user completes their own authentication; credentials are never bundled.",
     "developerName": "Doitforme",
     "category": "Productivity",
     "capabilities": [
@@ -16,13 +16,36 @@
       "MCP"
     ],
     "websiteURL": "https://shift.doitforme.eu/",
-    "privacyPolicyURL": "https://shift.doitforme.eu/privacy-policy",
-    "termsOfServiceURL": "https://shift.doitforme.eu/terms",
+    "privacyPolicyURL": "https://launchpad.doitforme.eu/en/data-protection-policy/",
+    "termsOfServiceURL": "https://launchpad.doitforme.eu/en/terms-and-conditions/",
     "defaultPrompt": [
       "Audit my active Meta and Google campaigns.",
       "Find wasted spend across my connected providers.",
       "Write fresh performance ad copy from current account context."
     ],
-    "brandColor": "#D08E14"
-  }
+    "brandColor": "#5BB6B0",
+    "supportURL": "https://github.com/Doitforme-eu/shift-marketplace/issues",
+    "logo": "./assets/icon.png",
+    "composerIcon": "./assets/icon.png"
+  },
+  "author": {
+    "name": "Doitforme",
+    "url": "https://shift.doitforme.eu/"
+  },
+  "homepage": "https://shift.doitforme.eu/",
+  "repository": "https://github.com/Doitforme-eu/shift-marketplace",
+  "keywords": [
+    "marketing",
+    "meta-ads",
+    "facebook-ads",
+    "instagram-ads",
+    "google-ads",
+    "google-analytics",
+    "ga4",
+    "google-tag-manager",
+    "gtm",
+    "campaign-analysis",
+    "mcp"
+  ],
+  "license": "MIT"
 }

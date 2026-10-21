@@ -20,5 +20,7 @@
     "gtm",
     "campaign-analysis",
     "mcp"
-  ]
+  ],
+  "icon": "./assets/icon.png",
+  "privacyPolicyUrl": "https://launchpad.doitforme.eu/en/data-protection-policy/"
 }

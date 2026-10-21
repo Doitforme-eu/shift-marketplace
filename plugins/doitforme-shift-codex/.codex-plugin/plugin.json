@@ -16,14 +16,17 @@
       "MCP"
     ],
     "websiteURL": "https://shift.doitforme.eu/",
-    "privacyPolicyURL": "https://shift.doitforme.eu/privacy-policy",
-    "termsOfServiceURL": "https://shift.doitforme.eu/terms",
+    "privacyPolicyURL": "https://launchpad.doitforme.eu/en/data-protection-policy/",
+    "termsOfServiceURL": "https://launchpad.doitforme.eu/en/terms-and-conditions/",
     "defaultPrompt": [
       "Audit my active Meta and Google campaigns.",
       "Find wasted spend across my connected providers.",
       "Write fresh performance ad copy from current account context."
     ],
-    "brandColor": "#D08E14"
+    "brandColor": "#D08E14",
+    "supportURL": "https://github.com/Doitforme-eu/shift-marketplace/issues",
+    "logo": "./assets/icon.png",
+    "composerIcon": "./assets/icon.png"
   },
   "author": {
     "name": "Doitforme",

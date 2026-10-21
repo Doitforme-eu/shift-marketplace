@@ -1,5 +1,7 @@
 # Doitforme Shift Marketplace
 
+<img src="./plugins/doitforme-shift-codex/assets/icon.png" alt="Doitforme Shift" width="96" height="96">
+
 Run marketing operations from **Codex** or **Claude Code** with Doitforme Shift: **Meta Ads, Google Ads, Google Analytics 4 (GA4), and Google Tag Manager (GTM)** in one MCP workflow.
 
 [Shift website](https://shift.doitforme.eu/) · [Connect your accounts](https://shift.doitforme.eu/el/ads-mcp/) · [Setup guide](https://shift.doitforme.eu/el/setup-guide/)
@@ -72,3 +74,5 @@ This repository is a public, independently hosted marketplace. Anyone who can re
 ## Help
 
 Use the [Shift setup guide](https://shift.doitforme.eu/el/setup-guide/) for account and connection help. Report package or installation problems in [GitHub Issues](https://github.com/Doitforme-eu/shift-marketplace/issues). Include the client version and error message, with credentials and private account data removed.
+
+[Privacy policy](https://launchpad.doitforme.eu/en/data-protection-policy/) · [Terms of service](https://launchpad.doitforme.eu/en/terms-and-conditions/)

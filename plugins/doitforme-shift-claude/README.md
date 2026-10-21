@@ -26,3 +26,9 @@ The bundled [MCP configuration](./.mcp.json) points to `https://backend.shift.do
 - Inspect a GTM workspace and validate conversion tags before publishing.
 
 See the [marketplace README](../../README.md) for the full skill inventory, platform coverage, support, and public directory limitations. Available operations depend on connected providers, exposed MCP tools and account permissions.
+
+## Publisher links
+
+[Privacy policy](https://launchpad.doitforme.eu/en/data-protection-policy/) · [Terms of service](https://launchpad.doitforme.eu/en/terms-and-conditions/) · [Package support](https://github.com/Doitforme-eu/shift-marketplace/issues)
+
+These are the published policy links used by the Shift website. The bundled icon is the website's [512 px app icon](https://shift.doitforme.eu/logo512.png).

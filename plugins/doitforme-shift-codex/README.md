@@ -1,21 +1,28 @@
 # Doitforme Shift for Codex
 
-This private Codex plugin bundles Shift skills and a remote MCP server definition.
+Marketing operations for Meta Ads, Google Ads, Google Analytics 4 (GA4), and Google Tag Manager (GTM), with ten bundled skills and the Shift remote MCP connection.
 
-## User setup
-
-1. Install the marketplace and plugin:
+## Install
 
 ```bash
-codex plugin marketplace add <path-or-repo-to-distribution/codex-plugin>
+codex plugin marketplace add Doitforme-eu/shift-marketplace
 codex plugin add doitforme-shift@doitforme-shift-marketplace
 ```
 
-2. When Codex prompts you to authenticate Shift, complete that step in the Codex UI.
+For desktop installation, use your client's supported marketplace flow; see the [Codex plugin guide](https://developers.openai.com/plugins/build/plugins).
 
-3. If your Codex installation does not automatically wire the MCP server, add the `doitforme_shift` entry from [`.mcp.json`](./.mcp.json) to your Codex MCP configuration.
+## Connect
 
-## Notes
+1. Sign in to [Shift](https://shift.doitforme.eu/) and connect the providers you want to use.
+2. Complete Shift authentication when your client prompts you. The server advertises OAuth discovery; each user authenticates their own account.
+3. Ask Shift to check `get_connection_status` before using provider data.
 
-- Codex should handle authentication during install or first use instead of requiring a shell environment variable.
-- This plugin keeps using the shared Shift remote MCP backend at `https://backend.shift.doitforme.eu/mcp`.
+The bundled [MCP configuration](./.mcp.json) points to `https://backend.shift.doitforme.eu/mcp`. If your client needs a manual connection, follow the current [Shift setup guide](https://shift.doitforme.eu/el/setup-guide/). Keep keys and tokens in your client's secure connection settings, outside the repository.
+
+## Examples
+
+- Review Meta Ads and Google Ads performance and identify wasted spend.
+- Analyze GA4 acquisition, engagement, key events and ecommerce performance.
+- Inspect a GTM workspace and validate conversion tags before publishing.
+
+See the [marketplace README](../../README.md) for the full skill inventory, platform coverage, support, and public directory limitations. Available operations depend on connected providers, exposed MCP tools and account permissions.

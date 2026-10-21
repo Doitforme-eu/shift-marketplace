@@ -1,5 +1,24 @@
 {
   "name": "doitforme-shift",
-  "version": "1.0.0",
-  "description": "Shift plugin for Claude with bundled skills, guidance, and static API-key MCP auth."
+  "version": "1.1.0",
+  "description": "Meta Ads and Google Ads campaign operations, Google Analytics 4 (GA4) analysis, and Google Tag Manager (GTM) tracking workflows through Shift MCP.",
+  "author": {
+    "name": "Doitforme",
+    "url": "https://shift.doitforme.eu/"
+  },
+  "homepage": "https://shift.doitforme.eu/",
+  "repository": "https://github.com/Doitforme-eu/shift-marketplace",
+  "keywords": [
+    "marketing",
+    "meta-ads",
+    "facebook-ads",
+    "instagram-ads",
+    "google-ads",
+    "google-analytics",
+    "ga4",
+    "google-tag-manager",
+    "gtm",
+    "campaign-analysis",
+    "mcp"
+  ]
 }

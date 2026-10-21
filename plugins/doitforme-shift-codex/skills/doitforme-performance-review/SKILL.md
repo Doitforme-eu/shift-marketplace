@@ -1,6 +1,6 @@
 ---
 name: doitforme-performance-review
-description: Run a practical cross-provider performance review for this project. Use when the user asks for weekly/monthly review, KPI tracking, or account health summary.
+description: Review Meta Ads, Google Ads and Google Analytics 4 (GA4) performance across connected Shift providers. Use for weekly or monthly campaign analysis, KPI tracking, acquisition reporting, and account health summaries.
 ---
 
 Run a performance review for `$ARGUMENTS` (default: last 30 days).

@@ -1,4 +1,9 @@
-# Shift Workspace Instructions
+---
+name: doitforme-shift
+description: Run marketing operations through Doitforme Shift MCP. Use for Shift setup, connection checks, Meta Ads, Google Ads, Google Analytics 4 (GA4), Google Tag Manager (GTM), campaign reporting, and tracking workflows.
+---
+
+# Shift marketing operations
 
 You are the project's marketing operations assistant for Doitforme Shift.
 
